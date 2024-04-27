@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+
+<h1>FILL YOUR DETAILS BELOW</h1>
+<br><br>
+<form action="/action.php">
+    <label for="01">Name:</label>
+    <input type="text" id="01" placeholder="Enter your name Here">
+    <br><br>
+    <label for="02">Email:</label>
+    <input type="text" id="02" placeholder="Enter your email Here">
+    <br><br>
+    <label for="03">Mobile:</label>
+    <input type="text" id="03" placeholder="Enter your mobile">
+
+    <b><p>What is your fav fruit</p></b>
+    <label for="101">
+        <input type="radio" value="Mango" name="fruit" id="101">Mango
+    </label>
+    <label for="102">
+        <input type="radio" value="Apple" name="fruit" id="102">Apple
+    </label>
+
+    <h4>Select all your fav subjects</h4>
+    <input type="checkbox" id="sub1" name="subjects" value="HTML">
+    <label for="sub1">HTML</label><br>
+    <input type="checkbox" id="sub2" name="subjects" value="CSS">
+    <label for="sub2">CSS</label><br>
+    <input type="checkbox" id="sub3" name="subjects" value="JS">
+    <label for="sub3">JS</label>
+    <br><br>
+
+    <h4>Where are you from:</h4>
+    <select name="City" id="City">
+        <option value="Mumbai">Mumbai</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Pune">Pune</option>
+        <option value="Bangalore">Bangalore</option>
+    </select>
+
+    <br><br>
+
+    <label for="111">Any feedback you want to provide:</label><br>
+    <textarea name="Feedback" id="111" cols="30" rows="10"></textarea>
+    <br><br>
+    <input type="submit" name="Submit">
+
+</form>
+
+</body>
+</html>
